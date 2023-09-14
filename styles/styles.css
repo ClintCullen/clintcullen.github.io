@@ -1,0 +1,65 @@
+html {
+    font-size: 36px;
+    font-family: "Big Shoulders Inline Display", cursive;
+    color:#95e0f7;
+    background-color: #091c2e;
+  }
+
+  body {
+    width: 800px;
+    margin: 0 auto;
+    padding: 0 20px 20px 20px;
+    border: 1px solid #95e0f7;
+  }
+
+  h1 {
+    margin:0;
+    font-size: 60px;
+    text-align: center;
+    padding: 20px 0;
+    text-shadow: 3px 3px 1px #95e0f7;
+  }
+
+  h2 {
+    margin:0 auto;
+    font-size: 54px;
+    text-align: center;
+    padding: 20px 0;
+    text-shadow: 3px 3px 1px #95e0f7;
+  }
+
+  h3 {
+    margin:0 auto;
+    font-size: 48px;
+    text-align: center;
+    padding: 20px 0;
+    text-shadow: 3px 3px 1px #95e0f7;
+  }
+
+  h4 {
+    margin:0 auto;
+    font-size: 36px;
+    text-align: left;
+    padding: 20px 0;
+  }
+
+
+  img {
+    display: block;
+    margin: 0 auto;
+    width: auto;
+  }
+
+  p,
+  li,
+  ul {
+    color: #95e0f7;
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+  }
+
+  a,
+  a:visited {
+    color:#95e0f7;
+  }
