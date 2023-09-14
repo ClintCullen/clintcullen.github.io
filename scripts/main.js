@@ -3,11 +3,11 @@ function multiply(num1, num2) {
   return result;
 }
 
-myManifestoH3.innerHTML = `function multiply 100 * 30 = ${multiply(100, 30)}`;
+//myManifesto.innerHTML = `function multiply 100 * 30 = ${multiply(100, 30)}`;
 
-document.querySelector("html").addEventListener("click", () => {
-  alert("Ouch! Stop poking me!");
-});
+// document.querySelector("html").addEventListener("click", () => {
+//   alert("Ouch! Stop poking me!");
+// });
 
 const myImage = document.querySelector("img");
 

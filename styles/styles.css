@@ -25,15 +25,15 @@ html {
     font-size: 54px;
     text-align: center;
     padding: 20px 0;
-    text-shadow: 3px 3px 1px #95e0f7;
+    text-shadow: 3px 3px 0 #95e0f7;
   }
 
   h3 {
     margin:0 auto;
-    font-size: 48px;
+    font-size: 24px;
     text-align: center;
     padding: 20px 0;
-    text-shadow: 3px 3px 1px #95e0f7;
+    text-shadow: 2px 2px 0 #d5e7ec;
   }
 
   h4 {
