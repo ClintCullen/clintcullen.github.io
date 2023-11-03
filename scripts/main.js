@@ -11,6 +11,7 @@ myImage.onclick = () => {
 
 let myButton = document.querySelector("button");
 let myHeading = document.querySelector("h1");
+let titleText = 'Double Striped Bluet';
 
 function setUserName() {
   const myName = prompt("Please enter your name.");
@@ -18,7 +19,7 @@ function setUserName() {
     setUserName();
   } else {
     localStorage.setItem("name", myName);
-    myHeading.textContent = `Mozilla is cool, ${myName}`;
+    myHeading.textContent = `${titleText} ${myName}`;
   }
 }
 
@@ -26,7 +27,7 @@ if (!localStorage.getItem("name")) {
   setUserName();
 } else {
   const storedName = localStorage.getItem("name");
-  myHeading.textContent = `Mozilla is cool, ${storedName}`;
+  myHeading.textContent = `${titleText} ${storedName}`;
 }
 
 myButton.onclick = () => {
