@@ -1,3 +1,4 @@
+// Clint Cullen 11/3/2023
 const myImage = document.querySelector("img");
 
 myImage.onclick = () => {
