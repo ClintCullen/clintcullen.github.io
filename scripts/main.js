@@ -1,4 +1,4 @@
-// Clint Cullen 11/3/2023
+// Clint Cullen 11/3/2023 14:45
 const myImage = document.querySelector("img");
 
 myImage.onclick = () => {
